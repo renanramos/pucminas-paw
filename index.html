@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tim Berners-Lee</title>
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Tim Berners-Lee, W3C, WWW, HTML"/>
+    <meta name="description" content="Página sobre Tim Berners-Lee"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css"/> 
+    <style>
+        body{
+            font-family: Calibri, Arial, sans-serif;
+            font-weight: lighter;
+            font-size: 11pt;
+            background-color: #222224;
+            color: lightgray;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        a{
+            text-decoration: none;
+            color: deepskyblue;
+        }
+
+        a:hover{
+            color: white;
+            background-color: darkslategray;
+        }
+
+        h1{
+            font-weight: bold;
+            font-size: xx-large;
+        }
+
+        h2{
+            font-size: 170%;
+        }
+
+        blockquote{
+            font-style: italic;
+            font-family: 'Rubik', cursive;
+            font-size: 12px;
+        }
+
+        body > p{
+            text-align: justify;
+            line-height: 1.25;
+            text-indent: 2em;
+         } 
+
+        header{
+            text-align: center;
+        }
+
+        header h1{
+            margin-bottom: 0;
+        }
+
+        header blockquote{
+            margin-top: 0;
+            margin-bottom: 1em;
+            border-bottom: 2px deepskyblue solid;
+        }
+
+        nav ul{
+            padding-left: 0;
+            text-align: right;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav a{
+            display: inline-block;
+            padding: 5px 1em;
+            background-color: lightgray;
+            color: darkslategray;
+            border-radius: 3px;
+        }
+
+        nav a:hover{
+            background-color: deepskyblue;
+        }
+
+        figure img{
+            width: 250px;
+        }
+
+        figure{
+            width: 250px;
+            margin-left: 1em;
+            margin-right: 0;
+            float: right;
+        }
+
+        figcaption{
+            text-align: center;
+        }
+
+        h2{
+            clear: both;
+        }
+
+        footer{
+            margin-top: 2em;
+        }
+
+        #stats{
+            border-collapse: collapse;
+        }
+
+        #stats td, #stats th{
+            border: 2px dimgray solid;
+            padding: 3px 5px;
+        }      
+
+        #stats td{
+            text-align: right;
+        }
+        #stats td:first-child{
+            text-align: left;
+        }
+        #stats th{
+            background-color: dimgray;
+        }
+
+        #stats tfoot tr:last-child td{
+            border: 0;
+        }
+
+        #stats tfoot tr:first-child td{
+            font-weight: bold;
+        }
+
+        .numeros{
+            text-align: right;
+        }
+
+        #contato label{
+            vertical-align: top;
+            display: inline-block;
+            width: 6em;
+        }
+    </style>
+</head>
+<body>
+    <h1>2.20 Audio e video</h1>
+    <nav>
+        <ul>
+            <li><a href="https://www.w3.org/">W3C</a></li>
+            <li><a href="https://www.w3.org/TR/html">HTML</a></li>
+            <li><a href="https://www.w3.org/Style/CSS">CSS</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Tim Berners-Lee</h1>
+        <blockquote cite="http://google.com.br">
+            A web não apenas conecta máquinas, ela conecta pessoas.
+        </blockquote>
+    </header>
+
+    <figure><img src="Sir_Tim_Berners-Lee.jpg" alt="Tim Berners-Lee"
+        title="Tim Berners-Lee">
+        <figcaption>Tim Berners-Lee</figcaption>
+    </figure>
+
+    <p id="p1">
+        <strong>Tim Berners-Lee</strong> inventou a World Wide Web em 1989. Fundou e dirige o 
+       <a href="http://www.w3.org/" target="_blank">World Wide Web Consortium</a> (W3C) - 
+        o fórum para o desenvolvimento técnico da Web. Ele fundou a
+        <a href="https://www.webfoundation.org/"> Web Foundation</a>, cuja missão 
+        <em> é garantir que a WWW sirva à humanidade</em>, e co-fundou o Open Data Institute em Londres. <br/><br/>
+        Tim gasta muito tempo lutando pelos direitos tais como privacidade, liberdade e abertura da Web.
+    </p>
+
+    <p id="p2">
+        Formado pela Universidade de Oxford, Tim Berners-Lee inventou a Web, enquanto no CERN, o Laboratório Europeu 
+        de Física de Partículas, em 1989. Ele escreveu o primeiro cliente web e servidor em 1990. Suas especificações 
+        de URIs, HTTP e HTML foram refinadas ao longo do crescimento da Web.
+    </p>
+    
+    <!-- aside : uma seção da página que contém informações 
+        tangencialmente relacionada ao conteúdo principal.
+        Conteúdo secundário. A falta de leitura não implica no conteúdo da página. -->
+    <aside>
+        <h2>Cargos</h2>
+        <ul>
+            <li> Professor da Escola de Engenharia da 3Com</li>
+            <li> Professor do Departamento de Engenharia Elétrica e Ciência da Computação do MIT</li>
+            <li> Diretor do World Wide Web Consortium</li>
+            <li> Diretor do Web Foundation</li>
+            <li> Presidente do Open Data Institute de Londres</li>
+        </ul>
+    </aside>
+    <!-- article : o conteúdo tem sentido próprio. Somente esse conteúdo tem um significado. -->
+    <aside>
+        <h2>Palestras de Tim Berners-Lee no TED.com</h2>
+        <ol >
+        <li><a href="http://www.ted.com/talks/tim_berners_lee_on_the_next_web" target="_blank">The next web</a> (2009)</li>
+        
+        <li><a href="http://www.ted.com/talks/tim_berners_lee_the_year_open_data_went_worldwide" target="_blank">The year open data went 
+            worldwide</a> (2010)</li>
+            
+            <li> <a href="http://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web" target="_blank"> A Magna Carta for the web </a>(2014)
+            </li>
+        </ol>
+    </aside>
+    <aside>
+        <h2>Estatísticas da Web</h2>
+        <table id="stats">
+            <caption>Usuários da Web em 2015</caption>
+                <thead>
+                    <tr>
+                        <th>Continente</th>
+                        <th>População<br/>(em milhões)</th>
+                        <th>Usuários da web<br/> (em milhões)</th>
+                        <th>%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>África</td>
+                        <td>1.158</td>
+                        <td>331</td>
+                        <td>28,6%</td>
+                    </tr>
+                    <tr>
+                        <td>Ásia</td>
+                        <td>4.032</td>
+                        <td>1.622</td>
+                        <td>40,2%</td>
+                    </tr>
+                    <tr>
+                        <td>Europa</td>
+                        <td>822</td>
+                        <td>604</td>
+                        <td>73,5%</td>
+                    </tr>
+                    <tr>
+                        <td>Oriente Médio</td>
+                        <td>236</td>
+                        <td>123</td>
+                        <td>52,2%</td>
+                    </tr>
+                    <tr>
+                        <td>América do Norte</td>
+                        <td>357</td>
+                        <td>314</td>
+                        <td>87,9%</td>
+                    </tr>
+                    <tr>
+                        <td>Américas Central e do Sul</td>
+                        <td>617</td>
+                        <td>345</td>
+                        <td>55,9%</td>
+                    </tr>
+                    <tr>
+                        <td>Oceania</td>
+                        <td>37</td>
+                        <td>27</td>
+                        <td>73,2%</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>7.260</td>
+                        <td>3.366</td>
+                        <td>46,4%</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Fonte: <a href="http://www.internetworldstats.com/stats.htm">Internet World Stats</a></td>
+                    </tr>
+                </tfoot>
+                
+                Fonte: Internet World Stats
+                Disponível em: http://www.internetworldstats.com/stats.htm
+
+        </table>
+    </aside>
+    <section>
+        <h2>Contato</h2>
+        <form id="contato">
+            <fieldset>
+                <legend>Mensagem</legend>
+
+                <p>
+                    <label for="nome">Nome: </label> <input id="nome" type="text" size="40" placeholder="Digite seu nome"/>
+                </p>
+                <p>
+                    <label for="email">Email: </label> <input id="email" type="email" size="40" placeholder="Digite seu email"/>
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Digite sua mensagem"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <!-- formas de contato, não par endereço literalmente -->
+        <address>
+            Para mais informações, visite a <a href="http://pucminas.br">PUC Minas Virtual</a>
+        </address>
+        <small>Copyright &copy; PUC Minas Virtual</small>
+    </footer>
+</body>
+</html>
